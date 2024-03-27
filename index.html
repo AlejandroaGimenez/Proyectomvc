@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- Cambiar título -->
-    <title>Proyecto XXX</title>
+    <title>Mueblería</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <section id="formMayor">
+    <section id="formMuebleria">
     <!-- Cambiar título -->
     <h3>Proyecto XXX</h3>
       <table id="formMayorTabla">
@@ -21,16 +21,33 @@
       <!-- Agregar salidas de clse mayor -->
       <h5>Reporte 1: <span id="formMayorLblReporte1">?</span></h5>
       <!-- Ajustar inner del botón -->
-      <button id="formMayorBtAgregar">Agregar Objeto menor</button>
+      <button id="formMayorBtAgregarComedor">Agregar Objeto Comedor</button>
+      <button id="formMayorBtAgregarMueble">Agregar Objeto Mueble</button>
     </section>
 
-    <section id="formMenor">
+    <section id="formMueble">
       <h3>Datos del ??</h3>
       <!-- Indicar inputs 
         Ajustar placeholder -->
-      <input type="text" id="formMenorInNumero" placeholder="Número"></input>
-      <button id="formMenorBtAceptar">Aceptar</button> 
+      <input type="text" id="formMuebleInFactura" placeholder="Factura"></input>
+      <input type="text" id="formMuebleInMadera" placeholder="Madera"></input>
+      <input type="text" id="formMuebleInTela" placeholder="Tela"></input>
+  
+  
+      <button id="formMuebleBtAceptar">Aceptar</button> 
     </section>
+<section id="formComedor">
+      <h3>Datos del ??</h3>
+      <!-- Indicar inputs 
+        Ajustar placeholder -->
+      <input type="text" id="formComedorInFactura" placeholder="Factura"></input>
+      <input type="text" id="formComedorInMadera" placeholder="Madera"></input>
+      <input type="text" id="formComedorInSillas" placeholder="Sillas"></input>
+  
+  
+      <button id="formComedorBtAceptar">Aceptar</button> 
+    </section>
+
   </body>
   <script type="module">
     import Cl_main from "./js/Cl_main.js";
